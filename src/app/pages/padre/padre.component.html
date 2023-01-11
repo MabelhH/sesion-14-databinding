@@ -1,0 +1,31 @@
+<div class="container">
+    <h2><mark>componente padre</mark></h2>
+ <div class="">
+    <br>
+    <span><b>texto prueva:</b></span><input type="text" [(ngModel)]="cambiartexto"> 
+ </div> 
+ <br>
+ <app-hijo [textohijo]="cambiartexto"></app-hijo>
+</div>
+<br>
+<div class="formulario">
+    <div class="container-2">
+      <h1>Data Binding Interpolation</h1>
+      <hr>
+      <h4>Event binding</h4>
+      <p *ngIf="mostrar">Event Binding,es el mecanismo de data bainding mediante el cual trabaja con los eventos que se encuentran en el DOM.</p>
+      <button type="submit" class="btn btn-info" (click)="mostrar=!mostrar">mostrar={{mostrar}}</button>
+      <hr>
+      <h4>Two way binding </h4>
+      <p>{{escribir}}</p>
+      <textarea name="name" id="name" cols="125" rows="6" [(ngModel)]="escribir" ></textarea>  
+    </div>
+</div>
+
+
+   
+
+
+
+
+

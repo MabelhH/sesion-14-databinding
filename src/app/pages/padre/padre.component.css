@@ -1,0 +1,38 @@
+.container{
+border: 2px solid blue;
+border-radius: 4px;
+padding: 45px;
+margin-top: 50px;
+background-color: rgb(149, 183, 246);
+}
+span{
+    color: rgb(6, 6, 6);
+    font-size: 30px;
+}
+input{
+   width: 70%;
+   margin-left: 10px;
+   padding: 10px;
+   border-radius: 6px;
+   font-size: 20px;
+}
+
+h1{
+color: rgb(7, 7, 7);
+justify-content: center;
+text-align: center;
+margin-top: 15px;
+}
+.container-2{
+    background-color: rgb(178, 248, 230);
+    width: 90%;
+    border: 2px solid rgb(32, 125, 86);
+    margin-left: 80px;
+    padding: 45px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+textarea{
+    padding: 20px;
+    border-radius: 6px;
+}
